@@ -8,3 +8,4 @@ y=sqrt(x.^2+2*x+0.01); //analytical soln
 subplot(2,1,1);plot(x,y);
 u=ode(y0,x0,x,f);
 subplot(2,1,2),plot(x,u,'r');
+xgrid();
