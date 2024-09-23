@@ -1,0 +1,10 @@
+clc;
+z=poly(0,'z');
+N=(1+z)
+D=(1+3/4*z+1/8*z^2)
+H=N/D
+zero=roots(D);
+pole=roots(N);
+disp(zero);
+disp(pole);
+plzr(H);

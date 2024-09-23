@@ -1,0 +1,10 @@
+clc;
+N=5;
+Wo=2*%pi/N;
+W=[-Wo,0,Wo];
+XW=[%pi,0,%pi];
+figure(1)
+a=gca();
+a.y_location="origin";
+a.x_location="origin";
+plot2d3(W,XW);

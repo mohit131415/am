@@ -1,0 +1,9 @@
+clc();
+s=poly(0,'s');
+N=1;
+D=s^2+0.2*s+1;
+G=N/D
+t=0:0.5:50
+y=csim('impuls',t,G);
+plot(t,y)
+xgrid(color('red'));

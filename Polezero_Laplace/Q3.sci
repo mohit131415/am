@@ -1,0 +1,10 @@
+clc;
+s=poly(0,'s');
+N=10*s
+D=s^2+2*s+2
+I=N/D
+zero=roots(N);
+pole=roots(D);
+disp(zero);
+disp(pole);
+plzr(I);
